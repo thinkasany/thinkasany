@@ -3,7 +3,7 @@
 
 
 
-![](https://raw.githubusercontent.com/thinkasany/thinkasany/output/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/thinkasany/thinkasany/output/github-snake.svg)
 
 [antd](https://github.com/ant-design/ant-design/commits?author=thinkasany)
 [antdpro](https://github.com/ant-design/pro-components/commits?author=thinkasany)
