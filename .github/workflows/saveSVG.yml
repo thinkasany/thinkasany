@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: thinkasany/schedule@master
+  savaSvg:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -30,4 +32,4 @@ jobs:
           git checkout output
           git add .
           git commit -m "Upload images"
-          git push origin output  
+          git push origin output   
