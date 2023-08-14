@@ -10,3 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: thinkasany/schedule@master
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+
+      - name: Build and publish
+        run: |
+          mkdir output
+          cp /home/runner/work/_actions/thinkasany/schedule/master/dist/output/* output/
+          
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          
+          git checkout output
+          git add .
+          git commit -m "Upload images"
+          git push origin output  
