@@ -1,0 +1,17 @@
+{
+  "name": "thinkasany-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./dist/index.js",
+    "main": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^20.0.1",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {}
+}

@@ -1,42 +1,44 @@
-name: SaveSVG
+# name: Push Output Files
 
-on:
-  schedule:
-    - cron: "0 0 */2 * *"
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: "0 0 */2 * *"
+#   workflow_dispatch:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  checkin:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: thinkasany/schedule@master
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  savaSvg:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+# jobs:
+#   push_output:
+#     runs-on: ubuntu-latest
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '12'
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
 
-      - name: Build and publish
-        run: |
-          mkdir output
-          cp /home/runner/work/_actions/thinkasany/schedule/master/dist/output/* output/
-          
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          
-          git checkout output
-          git add .
-          git commit -m "Upload images"
-          git push origin output   
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 14
+
+#       - name: Install Dependencies
+#         run: npm install
+
+#       - name: Run Script and Save Output
+#         run: |
+#           node dist/index.js  # 运行脚本并将输出保存到 output 文件夹
+
+#       - name: Commit and Push Changes
+#         run: |
+#           git config --global user.name "ThinkerWing"
+#           git config --global user.email "1099256274@qq.com"
+#           git checkout -b svgoutput  # 创建并切换到 output 分支
+#           cp -r dist/output/ /  
+#           git add .
+#           git commit -m "Add output files"  # 提交更改
+#           git push -f origin svgoutput  # 推送到 output 分支
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
+
+
+# 最近比较忙，先放放，暂时先不搞这个了，ACTION_TOKEN 后续记得仓库中也需要设置一下权限
