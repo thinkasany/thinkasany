@@ -1,0 +1,12 @@
+name: SaveSVG
+
+on:
+  schedule:
+    - cron: "0 0 */2 * *"
+  workflow_dispatch:
+
+jobs:
+  checkin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: thinkasany/schedule@master
