@@ -53,7 +53,8 @@ const imglist = [
 ];
 
 /** 接口有时候数据会炸 API rate limit exceeded，做一份数据备份 */
-const numsArr = [41, 6, 10, 100];
+const numsArr = [41, 6, 26, 105];
+const tmp = [];
 
 const returnSvgList = async () => {
   const svgList = [];
@@ -80,8 +81,9 @@ const returnSvgList = async () => {
       name: repo,
       svgUrl: `https://img.shields.io/badge/${label}-${nums}-${color}${colorLabel}`
     });
+    tmp.push(nums);
   }
-
+  console.log("tmp", tmp);
   return svgList;
 };
 
