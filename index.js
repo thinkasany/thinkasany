@@ -49,11 +49,19 @@ const imglist = [
   {
     label: "doocs/leetcode",
     repo: "doocs/leetcode"
-  }
+  },
+  {
+    label: "taro",
+    repo: "NervJS/taro"
+  },
+  {
+    label: "ts_tutorial",
+    repo: "wangdoc/typescript-tutorial"
+  },
 ];
 
 /** 接口有时候数据会炸 API rate limit exceeded，做一份数据备份， 需要使用node18才能正常运行 */
-const numsArr =  [ 43, 6, 27, 127 ]
+const numsArr =  [ 43, 6, 27, 134, 3, 3 ]
 const tmp = [];
 console.log("histroy numsArr", numsArr);
 const returnSvgList = async () => {
