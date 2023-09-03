@@ -1,4 +1,4 @@
-name: CordCloudJS
+name: test
 
 on:
   schedule:
@@ -9,6 +9,6 @@ jobs:
   checkin:
     runs-on: ubuntu-latest
     steps:
-      - uses: thinkasany/organize-contributors@master
+      - uses: thinkasany/organize-contributors@dev
         with:
           orgName: 'doocs'
