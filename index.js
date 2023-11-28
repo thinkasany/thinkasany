@@ -117,6 +117,7 @@ const fn = async item => {
     });
 };
 
+// 至少要使用node18跑这个脚本
 (async () => {
   const svgList = await returnSvgList(); // 使用 await 关键字等待异步函数返回结果
   console.log(svgList);
