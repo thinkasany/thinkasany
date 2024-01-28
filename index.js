@@ -39,6 +39,10 @@ const imglist = [
     color: "blue"
   },
   {
+    label: "antdWeb3",
+    repo: "ant-design/ant-design-web3"
+  },
+  {
     label: "antdPro",
     repo: "ant-design/pro-components"
   },
@@ -57,11 +61,11 @@ const imglist = [
   {
     label: "ts_tutorial",
     repo: "wangdoc/typescript-tutorial"
-  },
+  }
 ];
 
 /** 接口有时候数据会炸 API rate limit exceeded，做一份数据备份， 需要使用node18才能正常运行 */
-const numsArr =  [ 43, 6, 27, 134, 3, 3 ]
+const numsArr = [43, 37, 6, 27, 177, 3, 4];
 const tmp = [];
 console.log("histroy numsArr", numsArr);
 const returnSvgList = async () => {
@@ -80,7 +84,11 @@ const returnSvgList = async () => {
 
     let nums = numsArr[index];
     try {
-      nums = await getUserCommitCount(repoOwner, repoName, user); // 使用 await 关键字等待异步请求完成
+      const tmpNums = await getUserCommitCount(repoOwner, repoName, user); // 使用 await 关键字等待异步请求完成
+      if (nums < tmpNums) {
+        // 翻页统计并没有计算合作的贡献
+        nums = tmpNums;
+      }
     } catch (error) {
       console.log("error");
     }
