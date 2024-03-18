@@ -61,11 +61,19 @@ const imglist = [
   {
     label: "ts_tutorial",
     repo: "wangdoc/typescript-tutorial"
+  },
+  {
+    label: "EternalHeartTeam",
+    repo: "EternalHeartTeam/leetcode-practice"
+  }, 
+  {
+    label: "vitest/docs",
+    repo: "vitest-dev/docs-cn"
   }
 ];
 
 /** 接口有时候数据会炸 API rate limit exceeded，做一份数据备份， 需要使用node18才能正常运行 */
-const numsArr = [43, 37, 6, 27, 177, 3, 4];
+const numsArr = [43, 43, 6, 27, 177, 3, 4, 20, 9];
 const tmp = [];
 console.log("histroy numsArr", numsArr);
 const returnSvgList = async () => {
