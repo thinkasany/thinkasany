@@ -21,6 +21,12 @@
 <a href="https://github.com/doocs/leetcode/commits?author=thinkasany">
 <img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/leetcode.svg" alt="" /> 
 </a>
+<a href="https://github.com/EternalHeartTeam/leetcode-practice/commits?author=thinkasany">
+<img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/leetcode-practice.svg" alt="" /> 
+</a>
+<a href="https://github.com/vitest-dev/docs-cn/commits?author=thinkasany">
+<img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/docs-cn.svg" alt="" /> 
+</a>
 
 <br>
 <br>
