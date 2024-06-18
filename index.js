@@ -73,7 +73,7 @@ const imglist = [
 ];
 
 /** 接口有时候数据会炸 API rate limit exceeded，做一份数据备份， 需要使用node18才能正常运行 */
-const numsArr = [67, 125, 7, 27, 185, 3, 4, 24, 64];
+const numsArr = [67, 130, 7, 27, 186, 3, 4, 24, 74];
 const tmp = [];
 console.log("histroy numsArr", numsArr);
 const returnSvgList = async () => {
