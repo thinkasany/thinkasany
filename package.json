@@ -4,6 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
     "test": "node test.js",
     "main": "node index.js"
   },
@@ -11,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^20.0.1",
-    "axios": "^1.4.0"
-  },
-  "devDependencies": {}
+    "axios": "^1.4.0",
+    "nodemon": "^3.1.4"
+  }
 }
