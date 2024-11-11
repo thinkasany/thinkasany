@@ -47,7 +47,7 @@ const imglist = [
     repo: "element-plus/element-plus"
   },
   {
-    label: "antdPro",
+    label: "ant_design_pro",
     repo: "ant-design/pro-components"
   },
   {

@@ -3,3 +3,4 @@
 <img src="./element-plus.svg" />
 <img src="./leetcode-practice.svg" />
 <img src="./docs-cn.svg" />
+<img src="./pro-components.svg" />
