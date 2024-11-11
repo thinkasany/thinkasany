@@ -4,6 +4,15 @@
 
 ![](https://raw.githubusercontent.com/thinkasany/thinkasany/output/github-snake.svg)
 
+Hi, I'm thinkasany.
+
+The Core Member of [ant-design-web3](https://github.com/ant-design/ant-design-web3)、[doocs](https://github.com/doocs).
+
+I'm also maintaining [vitest-dev/docs-cn](https://github.com/vitest-dev/docs-cn)、[vitejs/docs-cn](https://github.com/vitejs/docs-cn).
+
+I have written a full-stack practical project: [miniprogram-taro-react](https://github.com/thinkasany/shop-miniprogram-taro)、 [admin-vue](https://github.com/thinkasany/shop-admin-vue)、[server-nest](https://github.com/thinkasany/shop-server-nest).
+
+
 <p>I’m currently active on the following repo/commit, you can click on the badge to view my commit history.</p>
 
 <a href="https://github.com/ant-design/ant-design/commits?author=thinkasany">
@@ -34,6 +43,5 @@
 <br>
 <br>
 
-My Full Stack Project: [miniprogram-taro-react](https://github.com/thinkasany/shop-miniprogram-taro)、 [admin-vue](https://github.com/thinkasany/shop-admin-vue)、[server-nest](https://github.com/thinkasany/shop-server-nest).
 
 
