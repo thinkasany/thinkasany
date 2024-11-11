@@ -39,11 +39,11 @@ const imglist = [
     color: "blue"
   },
   {
-    label: "antdWeb3",
+    label: "ant_design_web3",
     repo: "ant-design/ant-design-web3"
   },
   {
-    label: "elementPlus",
+    label: "element_plus",
     repo: "element-plus/element-plus"
   },
   {
