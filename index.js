@@ -76,8 +76,12 @@ const imglist = [
   }
 ];
 
+// https://github.com/ant-design/ant-design/graphs/contributors
+// https://github.com/ant-design/ant-design-web3/graphs/contributors
+// https://github.com/element-plus/element-plus/graphs/contributors
+
 /** 接口有时候数据会炸 API rate limit exceeded，做一份数据备份， 需要使用node18才能正常运行 */
-const numsArr = [138, 194, 12, 7, 27, 186, 3, 4, 24, 207];
+const numsArr = [140, 196, 14, 7, 27, 186, 3, 4, 24, 207];
 const tmp = [];
 console.log("histroy numsArr", numsArr);
 const returnSvgList = async () => {
