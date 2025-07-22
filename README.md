@@ -41,7 +41,7 @@ I have written a full-stack practical project: [miniprogram-taro-react](https://
 </a> -->
 
 <br>
-
+<br>
 
 You can also learn about me through [atomgit open source data analysis](https://ossinsight.atomgit.com/analyze/thinkasany) and [opensource code power list](https://opensource.win/thinkasany/).
 
