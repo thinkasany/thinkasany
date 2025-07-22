@@ -24,25 +24,31 @@ I have written a full-stack practical project: [miniprogram-taro-react](https://
 <a href="https://github.com/element-plus/element-plus/commits?author=thinkasany">
 <img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/element-plus.svg" alt="" /> 
 </a>
-<a href="https://github.com/ant-design/pro-components/commits?author=thinkasany">
-<img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/pro-components.svg" alt="" /> 
-</a>
 <a href="https://github.com/hellof2e/quark-design/commits?author=thinkasany">
 <img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/quark-design.svg" alt="" /> 
 </a>
 <a href="https://github.com/doocs/leetcode/commits?author=thinkasany">
 <img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/leetcode.svg" alt="" /> 
 </a>
-<a href="https://github.com/EternalHeartTeam/leetcode-practice/commits?author=thinkasany">
+<!-- <a href="https://github.com/EternalHeartTeam/leetcode-practice/commits?author=thinkasany">
 <img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/leetcode-practice.svg" alt="" /> 
 </a>
 <a href="https://github.com/vitest-dev/docs-cn/commits?author=thinkasany">
 <img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/docs-cn.svg" alt="" /> 
 </a>
+<a href="https://github.com/ant-design/pro-components/commits?author=thinkasany">
+<img align="center" src="https://raw.githubusercontent.com/thinkasany/thinkasany/svg/pro-components.svg" alt="" /> 
+</a> -->
 
 <br>
+
+
+You can also learn about me through [atomgit open source data analysis](https://ossinsight.atomgit.com/analyze/thinkasany) and [opensource code power list](https://opensource.win/thinkasany/).
+
+
 <br>
 
-![](https://raw.githubusercontent.com/thinkasany/thinkasany/svg/postspark.png)
+![](./img/antd.png)
+<!-- ![](https://raw.githubusercontent.com/thinkasany/thinkasany/svg/postspark.png) -->
 
 
