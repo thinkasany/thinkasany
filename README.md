@@ -4,7 +4,7 @@
 
 
 
-Hi, I'm thinkasany.
+Hi, I'm thinkasany. Front-end engineer, graduating in 2022.
 
 The Member of [ant-design](https://github.com/ant-design/ant-design)、[ant-design-web3](https://github.com/ant-design/ant-design-web3)、[doocs](https://github.com/doocs)、[hellof2e](https://github.com/hellof2e).
 
@@ -12,6 +12,7 @@ I'm also maintaining [vitest-dev/docs-cn](https://github.com/vitest-dev/docs-cn)
 
 I have written a full-stack practical project: [miniprogram-taro-react](https://github.com/thinkasany/shop-miniprogram-taro)、 [admin-vue](https://github.com/thinkasany/shop-admin-vue)、[server-nest](https://github.com/thinkasany/shop-server-nest).
 
+You can also learn about me through [atomgit opensource data analysis](https://ossinsight.atomgit.com/analyze/thinkasany) and [opensource hacking heros list](https://opensource.win/thinkasany/).
 
 <p>I’m currently active on the following repo/commit, you can click on the badge to view my commit history.</p>
 
@@ -43,7 +44,7 @@ I have written a full-stack practical project: [miniprogram-taro-react](https://
 <br>
 <br>
 
-You can also learn about me through [atomgit open source data analysis](https://ossinsight.atomgit.com/analyze/thinkasany) and [opensource code power list](https://opensource.win/thinkasany/).
+
 
 
 <br>
